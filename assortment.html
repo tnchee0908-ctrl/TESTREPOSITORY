@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ассортимент — Супермаркет «Река»</title>
+  <meta name="description" content="Ассортимент супермаркета Река: продукты питания, хозтовары, инструменты и многое другое." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ── Navbar ── -->
+  <nav class="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="logo">
+        <div class="logo__icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 17c2-3 4-5 6-5s4 4 6 4 4-3 6-3" stroke="#2E7D32" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M2 12c2-3 4-5 6-5s4 4 6 4 4-3 6-3" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+            <circle cx="12" cy="6" r="2.5" fill="#2E7D32"/>
+          </svg>
+        </div>
+        <span class="logo__text">РЕ<span>КА</span></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="assortment.html">Ассортимент</a></li>
+        <li><a href="delivery.html">Доставка</a></li>
+        <li><a href="promotions.html">Акции</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu">
+      <a href="index.html">Главная</a>
+      <a href="about.html">О нас</a>
+      <a href="assortment.html">Ассортимент</a>
+      <a href="delivery.html">Доставка</a>
+      <a href="promotions.html">Акции</a>
+      <a href="contacts.html">Контакты</a>
+    </div>
+  </nav>
+
+  <!-- ── Page Hero ── -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Ассортимент</h1>
+      <p>Продукты питания и хозтовары — всё в одном месте</p>
+    </div>
+  </section>
+
+  <!-- ── Main Categories ── -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Основные категории</h2>
+      <p class="section-subtitle">Два направления — одно удобное место для покупок</p>
+      <div class="assortment-grid">
+
+        <!-- Groceries -->
+        <div class="category-card">
+          <div class="category-card__header category-card__header--green">
+            <div class="category-card__emoji">🛒</div>
+            <h3>Продукты питания</h3>
+          </div>
+          <div class="category-card__body">
+            <p>Свежие продукты, бакалея, молочные продукты, мясо, рыба, напитки и многое другое для вашего стола и холодильника.</p>
+            <div class="tag-list">
+              <span class="tag">🥛 Молочные продукты</span>
+              <span class="tag">🍞 Хлеб и выпечка</span>
+              <span class="tag">🥩 Мясо и птица</span>
+              <span class="tag">🐟 Рыба и морепродукты</span>
+              <span class="tag">🥦 Овощи и фрукты</span>
+              <span class="tag">🧂 Бакалея</span>
+              <span class="tag">🧃 Напитки</span>
+              <span class="tag">🍫 Сладости</span>
+              <span class="tag">🥫 Консервация</span>
+              <span class="tag">🧊 Заморозка</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Household -->
+        <div class="category-card">
+          <div class="category-card__header category-card__header--yellow">
+            <div class="category-card__emoji">🔧</div>
+            <h3>Хозтовары</h3>
+          </div>
+          <div class="category-card__body">
+            <p>Инструменты для дома и ремонта, электроинструменты, средства для уборки, бытовая химия и товары для хозяйства.</p>
+            <div class="tag-list">
+              <span class="tag">🔨 Молотки и отвёртки</span>
+              <span class="tag">🔩 Крепёж</span>
+              <span class="tag">⚡ Электроинструменты</span>
+              <span class="tag">🔌 Шуруповёрты</span>
+              <span class="tag">🪣 Вёдра и тазы</span>
+              <span class="tag">🧹 Уборочный инвентарь</span>
+              <span class="tag">🧴 Бытовая химия</span>
+              <span class="tag">💡 Лампочки и батарейки</span>
+              <span class="tag">🔦 Фонарики</span>
+              <span class="tag">🪟 Товары для дома</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Additional info ── -->
+  <section class="section section--light">
+    <div class="container">
+      <h2 class="section-title">Всё, что нужно <span>каждый день</span></h2>
+      <p class="section-subtitle">Наши полки всегда полны — мы регулярно обновляем ассортимент</p>
+      <div class="features-grid">
+        <div class="card feature-card">
+          <div class="feature-card__icon">🏷️</div>
+          <h3>Честные цены</h3>
+          <p>Мы следим за тем, чтобы цены оставались доступными для всех жителей Аргуна.</p>
+        </div>
+        <div class="card feature-card">
+          <div class="feature-card__icon">🔄</div>
+          <h3>Свежие поставки</h3>
+          <p>Регулярное пополнение товаров — свежие продукты и новинки хозотдела каждую неделю.</p>
+        </div>
+        <div class="card feature-card">
+          <div class="feature-card__icon">🎯</div>
+          <h3>Широкий выбор</h3>
+          <p>От базовых продуктов до специализированных инструментов — найдёте всё нужное.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section class="section">
+    <div class="container" style="text-align:center;">
+      <h2 class="section-title">Нужна доставка?</h2>
+      <p class="section-subtitle">Закажите товары с доставкой прямо домой</p>
+      <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+        <a href="delivery.html" class="btn btn-primary">Оформить доставку</a>
+        <a href="contacts.html" class="btn btn-outline">Связаться с нами</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col">
+          <a href="index.html" class="logo footer__logo">
+            <div class="logo__icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 17c2-3 4-5 6-5s4 4 6 4 4-3 6-3" stroke="#2E7D32" stroke-width="2.5" stroke-linecap="round"/>
+                <circle cx="12" cy="6" r="2.5" fill="#2E7D32"/>
+              </svg>
+            </div>
+            <span class="logo__text">РЕ<span>КА</span></span>
+          </a>
+          <p class="footer__tagline">Близко! Быстро! Практично!</p>
+        </div>
+        <div class="footer__col">
+          <h4>Навигация</h4>
+          <a href="about.html" style="display:block">О нас</a>
+          <a href="assortment.html" style="display:block">Ассортимент</a>
+          <a href="delivery.html" style="display:block">Доставка</a>
+          <a href="promotions.html" style="display:block">Акции</a>
+        </div>
+        <div class="footer__col">
+          <h4>Контакты</h4>
+          <a href="tel:+78912345678">+7 891 234-56-78</a>
+          <p>Аргун, Чечня, Россия</p>
+        </div>
+        <div class="footer__col">
+          <h4>Режим работы</h4>
+          <p>Ежедневно<br>09:00 – 21:00<br>Без выходных</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        © 2025 Супермаркет «Река». Все права защищены.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
